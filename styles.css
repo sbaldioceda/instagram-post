@@ -1,0 +1,82 @@
+body{
+    background-color: black;
+
+}
+.post{
+    background-color: white;
+    width: 567px;
+    height: 750px;
+    margin: 100px 100px 200px 200px;
+
+}
+.encabezado{
+    /*border: 1px solid black;*/
+    float: left;
+    height: 90px;
+    width: 568px;
+    
+}
+.logo{
+    /*border: 1px solid black;*/
+    float: left;
+    width: 40px;
+    height: 50px;
+    margin: 15px 5px 15px 15px;
+    font-size: 50px;
+
+}
+.usuario{
+    /*border: 1px solid black;*/
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 15px 5px 15px 0px;
+    font-size: 50px;
+    
+}
+#app{
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+#user{    
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 5px 0px;
+    
+}
+.menu{
+    /*border: 1px solid black;*/
+    float: right;    
+    margin: 5px;
+    font-size: 40px;
+    margin: 15px;
+}
+.cuerpo{
+    
+    height: 400px;
+    width: 567px;
+    float: left;
+}
+
+.pie{
+   border: 1px solid red;
+    float: left;
+}
+.iconos{
+   border: 1px solid black;
+   width: 567px;
+   height: 50px;
+   float: left;
+}
+.reacciones{
+    border: black;
+        width: 500px;
+    height: 700px;
+}
+.descripcion{
+    border: black;
+        width: 500px;
+    height: 700px;
+}
