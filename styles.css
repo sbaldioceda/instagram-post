@@ -1,12 +1,22 @@
 body{
-    background-color: black;
-
+    background-color:rgb(53, 53, 53);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:  0;
+}
+.container{
+    background-color: black;    
+    width: 1000px;
+    height: 948px;
+    float: left;
+    margin-left: 500px;
+    margin-right: 100px;
+    margin-bottom: 0;
 }
 .post{
     background-color: white;
     width: 567px;
     height: 750px;
-    margin: 100px 100px 200px 200px;
+    margin: 100px 100px 0px 200px;
 
 }
 .encabezado{
@@ -37,12 +47,11 @@ body{
 #app{
     font-weight: bold;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
 }
 #user{    
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+
     margin: 0px 0px 5px 0px;
     
 }
@@ -54,30 +63,46 @@ body{
     margin: 15px;
 }
 .cuerpo{
-    
-    height: 400px;
+    /*border: 1px solid green;*/
+    height: 424px;
     width: 567px;
     float: left;
 }
 
 .pie{
-   border: 1px solid red;
-    float: left;
-    background-color: red;
+    /*background-color: purple;*/
+    float: left;    
+    height : 235px;
 }
 .iconos{
-   border: 1px solid black;
-   width: 567px;
-   height: 50px;
+    
+   width: 535px;
+   height: 60px;
    float: left;
+   font-size: 48px;
+   margin: 15px;
+   
+   /*background-color: gold;*/
+
+}
+#bookmark{
+    float: right;
+    margin-right: 15px;
 }
 .reacciones{
-    border: black;
-        width: 500px;
-    height: 700px;
+    
+   width: 535px;
+   height: 30px;
+    /*background-color:red;*/
+    float: left;
+    margin: 15px;
+    margin-top: 0px;
 }
 .descripcion{
-    border: black;
-        width: 500px;
-    height: 700px;
+    width: 535px;
+    height: 90px;
+    /*background-color: seagreen;*/
+    float: left;
+    margin: 15px;
+    margin-top: 0px;
 }
