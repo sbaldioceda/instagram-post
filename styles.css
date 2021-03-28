@@ -63,6 +63,7 @@ body{
 .pie{
    border: 1px solid red;
     float: left;
+    background-color: red;
 }
 .iconos{
    border: 1px solid black;
